@@ -1,5 +1,5 @@
 <template>
-    <button :class="baseClasses" :disabled="disabled" :aria-disabled="disabled ? 'disabled':null">
+    <button :class="baseClasses" :disabled="disabled" :aria-disabled="disabled ? 'true':null">
         <slot></slot>
     </button>
 </template>

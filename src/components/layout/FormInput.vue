@@ -19,8 +19,4 @@ let modelValue = ref(props.modelValue);
 watch(() => modelValue.value, (v) => {
     emit('update:modelValue', v);
 });
-
-function focus(){
-    console.log('called focus');
-}
 </script>
